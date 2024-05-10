@@ -25,10 +25,5 @@ jobs:
         python-version: "3.12.3"
     - name: Test with pytest
       run: |
-        python suma.py
-    - name: Numero 1
-      run: |
-        1
-    - name: Numero 2
-      run: |
-        2
+        python suma.py 1 2
+        
